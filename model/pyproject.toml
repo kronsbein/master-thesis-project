@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "model"
+version = "0.1.0"
+description = "master thesis project"
+authors = ["kronsbein <https://kronsbein.github.io>"]
+readme = "../README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "1.26.4"
+scikit-learn = "^1.5.1"
+pandas = "^2.2.2"
+torch = "2.2.1"
+pytorch-lightning = "^2.3.3"
+torch-geometric = "^2.5.3"
+dill = "^0.3.8"
+autoflake = "^2.3.1"
+yapf = "^0.40.2"
+isort = "^5.13.2"
+matplotlib = "^3.9.1"
+seaborn = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
